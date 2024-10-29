@@ -1,0 +1,18 @@
+blockquote{
+    cursor: pointer;
+}
+blockquote::after{
+    content: attr(cite);
+    display: none;
+    background-color: cadetblue;
+    width: fit-content;
+    padding-inline: 10px;
+    border-radius: 10px;
+}
+blockquote:hover::after{
+    background-color: blue;
+    display: flex;
+}
+/* blockquote::after{
+    display: flex; */
+/* } */

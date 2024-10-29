@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height: 30vw;
+    background-color: aqua;
+
+}
+
+div{
+    background-color: blueviolet;
+}
+.divsecond{
+    display: flex;
+    direction: rtl;
+    flex-direction: row;
+    gap: 3px;
+    background-color: blue;
+}
+
+#secondP{
+    color: brown;
+}
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 25px;
+        background-color: wheat;
+        padding-right: 30px;
+        font-size: 24px;
+        color:antiquewhite
+    }
+
+    a:hover{
+        color: brown;
+    }
+    a:active{
+        color: indianred;
+    }
+    
